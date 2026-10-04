@@ -1,0 +1,25 @@
+# Checkpoints and training artifacts
+checkpoints/
+*.ckpt
+lightning_logs/
+*.csv
+*.png
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data (not tracked — see README for expected layout)
+prepared_data/
+data/
+
+# OS/editor
+.DS_Store
+.vscode/
